@@ -1,4 +1,5 @@
 Partie 1 :
 1) 319489
 2) 47011/319489 = 0.147 soit 15%
-3) 
+3) fichier Q3.txt
+4) cat ../TP1/corpus_topic/*/all.txt | ./tokenize -lex lex_lefff_pos_lemme_freq_90k.txt -line -oov | sort | uniq -c | sort -n
